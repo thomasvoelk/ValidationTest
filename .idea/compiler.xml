@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="?*.properties" />
+      <entry name="?*.xml" />
+      <entry name="?*.gif" />
+      <entry name="?*.png" />
+      <entry name="?*.jpeg" />
+      <entry name="?*.jpg" />
+      <entry name="?*.html" />
+      <entry name="?*.dtd" />
+      <entry name="?*.tld" />
+      <entry name="?*.ftl" />
+    </wildcardResourcePatterns>
+    <annotationProcessing enabled="true" useClasspath="false">
+      <processorPath value="$PROJECT_DIR$/../../lib/hibernate-validator-4.2.0.Final/lib/required/validation-api-1.0.0.GA.jar" />
+      <processorPath value="$PROJECT_DIR$/../../lib/hibernate-validator-4.2.0.Final/hibernate-validator-4.2.0.Final.jar" />
+      <processorPath value="$PROJECT_DIR$/../../lib/hibernate-validator-4.2.0.Final/hibernate-validator-annotation-processor-4.2.0.Final.jar" />
+      <processor name="org.hibernate.validator.ap.ConstraintValidationProcessor" options="" />
+      <processModule name="Validation" />
+    </annotationProcessing>
+  </component>
+</project>
+
